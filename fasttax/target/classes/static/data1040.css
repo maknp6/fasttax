@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100;
+  padding: 12px 5px;
+  margin: 0px 0;  
+}
+
+form{
+ margin:0px; padding:0px; display:inline;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("09.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bz {
+  padding-left: 16px;
+}
+
+.container1 {
+  padding-left: 110px;
+  padding-right: 110px;
+}
+.div1 {
+  width: 1400px;
+  height: 1400px;
+  border: 0px solid blue;
+  background: rgba(221, 209, 197, 0.80);
+  /*padding: 14px 14px; 
+  padding-top:: 120px;   */
+}
+
+.div2 {
+  width: 300px;
+  height: 100px;  
+  padding: 50px;
+  border: 1px solid red;
+}
+
+.div9 {
+  width: 1400px;
+  height: 580px;
+  border: 0px solid blue;
+  background: rgba(221, 209, 197, 0.80);
+  /*padding: 14px 14px; 
+  padding-top:: 120px;   */
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;  
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+tr:nth-child(odd) {
+  background-color: #C4C4C4
+}
+
+
+/* Set a style for all buttons */
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 26px;  /* 14px 20px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 200px;
+  cursor: pointer;
+/* width: 60px; */
+  
+}
+
+
+
+
+
+
+
+
+
+
